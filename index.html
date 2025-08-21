@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <title>Mở thư mục nội bộ</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem; }
+    .btn { display:inline-block; padding:12px 18px; border-radius:12px; 
+           text-decoration:none; border:1px solid #ccc; box-shadow:0 2px 6px rgba(0,0,0,.1) }
+    .btn:active { transform: translateY(1px); }
+    .grid { display:grid; gap:12px; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); }
+  </style>
+</head>
+<body>
+  <h1>Liên kết mở thư mục</h1>
+  <div class="grid">
+    <a class="btn" href="file://10.1.12.27/TPBData/">Mở \\10.1.12.27\TPBData\</a>
+    <!-- Thêm các nút khác nếu cần -->
+  </div>
+  <p><small>Nếu không mở được, liên hệ IT để bật chính sách cho phép mở <code>file://</code> từ Intranet.</small></p>
+</body>
+</html>
